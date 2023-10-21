@@ -1,0 +1,312 @@
+.light{
+    --bColor:  #F6F6F6;
+    --txtColor: #000;
+    --igColor: #F6F6F6;
+}
+
+.dark{
+    --bColor: #171d19;
+    --txtColor: #d0ede0;
+    --igColor: #d0ede0;
+}
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--bColor);
+
+    .header {
+        width: 100%;
+        height: 12vh;
+
+        .logo {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            
+
+            img {
+                width: auto;
+                height: 45%;
+                background-color: var(--igColor);
+                border-radius: 10px;
+                padding: 5px;
+            }
+        }
+
+        .menu {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .jv {
+                width: 54px;
+                height: 54px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+
+                .button {
+                    width: 100%;
+                    height: 100%;
+                    background-color: transparent;
+                    border: none;
+
+                    .line {
+                        height: 30%;
+                        width: 100%;
+                        color: var(--txtColor);
+                        border-bottom: var(--txtColor) solid 3px;
+                        border-top: var(--txtColor) solid 3px;
+                        cursor: pointer;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .down {
+        width: 100%;
+        height: 90vh;
+
+        .img2 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .ic {
+                width: 100%;
+                height: 100%;
+                background-image: url("/assets/img/h-2-rev-img-2.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: scroll;
+                border-radius: 10px;
+            }
+        }
+
+        .plant {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .how {
+                width: 90%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .audrey {
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    .like {
+                        width: 90%;
+                        height: 60%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        flex-direction: column;
+
+                        .s1 {
+                            font-size: 80px;
+                            line-height: 85px;
+                            color: var(--txtColor);
+                        }
+
+                        p {
+                            line-height: 28px;
+                            letter-spacing: -1px;
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: var(--txtColor);
+                        }
+
+                        .btn {
+                            background-color: #d0ede0;
+                            color: #197b4f;
+                            font-size: 17px;
+                            font-family: "Work Sans", sans-serif;
+                            font-weight: 500;
+                            letter-spacing: -.05em;
+                            border-radius: 0%;
+                            padding: 10px 10px;
+                            cursor: pointer;
+                            margin-top: 10px;
+                            transition: all .2s ease-in-out;
+
+                            &:hover {
+                                color: #d0ede0;
+                                background-color: #197b4f;
+                            }
+                        }
+                    }
+                }
+
+                .forest {
+                    width: 50%;
+                    height: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    flex-direction: column;
+
+                    .mode {
+                        width: 70%;
+                        height: 80%;
+                        background-image: url("/assets/img/h2-rev-img2.jpg");
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-attachment: scroll;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("/assets/img/fs-menu-bg-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    transform: translateX(-100%);
+    transition: all .3s ease;
+
+
+
+    .head {
+        width: 100%;
+        height: 12vh;
+
+        .logo2 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            img {
+                width: auto;
+                height: 45%;
+            }
+        }
+
+        .menu2 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .jv2 {
+                width: 54px;
+                height: 54px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+
+                .button2 {
+                    width: 100%;
+                    height: 100%;
+                    background-color: transparent;
+                    border: none;
+
+                    .line2 {
+                        height: 30%;
+                        width: 100%;
+                        color: #000;
+                        border-bottom: #000 solid 3px;
+                        border-top: #000 solid 3px;
+                        cursor: pointer;
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .down2 {
+        width: 100%;
+        height: 90vh;
+
+        .ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .li {
+                width: 70%;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+
+                ul {
+                    width: 40%;
+                    height: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: space-between;
+
+                    li {
+                        list-style-type: none;
+
+                        span {
+                            font-family: 'Work Sans', sans-serif;
+                            font-size: 60px;
+                            cursor: default;
+                            transition: all 3s ease-in-out;
+
+                            &:hover {
+                                font-family: 'Kalam', cursive;
+                                font-size: 65px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

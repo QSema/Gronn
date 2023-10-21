@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light {
+  --bColor: #F6F6F6;
+  --txtColor: #000;
+  --igColor: #F6F6F6;
+}
+
+.dark {
+  --bColor: #171d19;
+  --txtColor: #d0ede0;
+  --igColor: #d0ede0;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--bColor);
+}
+.hero-section .header {
+  width: 100%;
+  height: 12vh;
+}
+.hero-section .header .logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero-section .header .logo img {
+  width: auto;
+  height: 45%;
+  background-color: var(--igColor);
+  border-radius: 10px;
+  padding: 5px;
+}
+.hero-section .header .menu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hero-section .header .menu .jv {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-section .header .menu .jv .button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+.hero-section .header .menu .jv .button .line {
+  height: 30%;
+  width: 100%;
+  color: var(--txtColor);
+  border-bottom: var(--txtColor) solid 3px;
+  border-top: var(--txtColor) solid 3px;
+  cursor: pointer;
+}
+.hero-section .down {
+  width: 100%;
+  height: 90vh;
+}
+.hero-section .down .img2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section .down .img2 .ic {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/img/h-2-rev-img-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  border-radius: 10px;
+}
+.hero-section .down .plant {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section .down .plant .how {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-section .down .plant .how .audrey {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-section .down .plant .how .audrey .like {
+  width: 90%;
+  height: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-section .down .plant .how .audrey .like .s1 {
+  font-size: 80px;
+  line-height: 85px;
+  color: var(--txtColor);
+}
+.hero-section .down .plant .how .audrey .like p {
+  line-height: 28px;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--txtColor);
+}
+.hero-section .down .plant .how .audrey .like .btn {
+  background-color: #d0ede0;
+  color: #197b4f;
+  font-size: 17px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  border-radius: 0%;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.hero-section .down .plant .how .audrey .like .btn:hover {
+  color: #d0ede0;
+  background-color: #197b4f;
+}
+.hero-section .down .plant .how .forest {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.hero-section .down .plant .how .forest .mode {
+  width: 70%;
+  height: 80%;
+  background-image: url("/assets/img/h2-rev-img2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("/assets/img/fs-menu-bg-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+.hero .head {
+  width: 100%;
+  height: 12vh;
+}
+.hero .head .logo2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero .head .logo2 img {
+  width: auto;
+  height: 45%;
+}
+.hero .head .menu2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hero .head .menu2 .jv2 {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero .head .menu2 .jv2 .button2 {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+.hero .head .menu2 .jv2 .button2 .line2 {
+  height: 30%;
+  width: 100%;
+  color: #000;
+  border-bottom: #000 solid 3px;
+  border-top: #000 solid 3px;
+  cursor: pointer;
+}
+.hero .down2 {
+  width: 100%;
+  height: 90vh;
+}
+.hero .down2 .ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .down2 .ul .li {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hero .down2 .ul .li ul {
+  width: 40%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hero .down2 .ul .li ul li {
+  list-style-type: none;
+}
+.hero .down2 .ul .li ul li span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 60px;
+  cursor: default;
+  transition: all 3s ease-in-out;
+}
+.hero .down2 .ul .li ul li span:hover {
+  font-family: "Kalam", cursive;
+  font-size: 65px;
+}/*# sourceMappingURL=style.css.map */
